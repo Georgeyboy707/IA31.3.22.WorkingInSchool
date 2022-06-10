@@ -1,3 +1,4 @@
+import java.io.File;
 
 public class Login {
     public static void login(){
@@ -49,5 +50,7 @@ public class Login {
         myDatabase.appendRecord(password);
 
         myDatabase.enter();
+
+        File myObj = new File(username + "Database" + ".txt");
     }
 }

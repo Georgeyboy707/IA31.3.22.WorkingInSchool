@@ -12,7 +12,7 @@ class Main {
         Login myLogin = new Login();
 
         //creates a new account, adds to file
-        //myLogin.createAccount("hello", "nononono");
+        myLogin.createAccount("test123", "12345");
 
         //checks if an entered user password combination is in the file
         if ((myLogin.authenticate("hello", "nononono").equals("-1"))){
