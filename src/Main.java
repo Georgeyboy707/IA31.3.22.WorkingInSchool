@@ -6,6 +6,10 @@ class Main {
         //Database myDatabase = new Database("D:\\Zjunk\\UsernamePassword", 10);
         Database myDatabase = new Database("\\\\bex-file-01\\studenthome$\\16\\16Syms_G\\Computer Science\\Year 12\\IAStuff\\UsernamePassword", 10);
 
+        Display mydisplay = new Display("test123");
+        mydisplay.printDatabase();
+
+        /*
         //System.out.println(myDatabase.getRecordCount());
 
         String[] userData = new String[myDatabase.getRecordCount()];
@@ -24,5 +28,7 @@ class Main {
             myDisplay.printDatabase();
 
         }
+
+         */
     }
 }
